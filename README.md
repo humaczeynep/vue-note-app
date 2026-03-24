@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-note-app
 # 📝 Vue Note App
 
@@ -22,3 +23,4 @@ git clone https://github.com/humaczeynep/vue-note-app.git
 cd vue-note-app
 npm install
 npm run dev
+=======
