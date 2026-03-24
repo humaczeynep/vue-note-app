@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # vue-note-app
 # 📝 Vue Note App
 
