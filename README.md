@@ -20,10 +20,6 @@ Bu proje, Vue 3 ve Pinia kullanılarak geliştirilmiş basit bir not uygulaması
 - Vue Router
 - LocalStorage
 
-## 📸 Ekran Görüntüleri
-
-(Ekran görüntüsü ekleyebilirsin)
-
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için:
