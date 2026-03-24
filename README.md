@@ -13,13 +13,6 @@ Bu proje, Vue 3 ve Pinia kullanılarak geliştirilmiş basit bir not uygulaması
 - Başlık ve içerik bazlı arama
 - Dashboard (istatistikler)
 
-## 🛠️ Kullanılan Teknolojiler
-
-- Vue 3 (Composition API)
-- Pinia (State Management)
-- Vue Router
-- LocalStorage
-
 ## ⚙️ Kurulum
 
 Projeyi çalıştırmak için:
