@@ -2,7 +2,7 @@
 
     <div class="search-box">
         <input v-model="searchQuery" type="text" placeholder="Ara" />
-        <button @click="search">
+        <button>
             <i class="material-icons">search</i>
         </button>
     </div>
