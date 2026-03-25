@@ -19,16 +19,10 @@ import { ref } from 'vue'
 export default {
   setup() {
     const noteStore = useNoteStore()
-    const showForm = ref(false)
-    const router = useRouter()
 
     noteStore.loadNotes()
 
-    const goToDashboard = () => {
-      router.push('/dashboard')
-    }
-
-    return { noteStore, showForm, goToDashboard }
+    return { noteStore }
   }
 }
 </script>
