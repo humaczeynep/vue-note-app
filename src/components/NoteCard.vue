@@ -1,11 +1,11 @@
 <template >
     <form @submit.prevent="sendForm">
         <div class="form-group">
-            <input v-model="title" type="text" placeholder="Başlık" class="form-control mb-2" />
-            <textarea v-model="content" placeholder="İçerik" class="form-control mb-2"></textarea>
+            <input v-model="title" type="text" placeholder="Başlık" class="form-control" />
+            <textarea v-model="content" placeholder="İçerik" class="form-control"></textarea>
 
             Kategori:
-            <select v-model="category" class="form-select mb-2">
+            <select v-model="category" class="form-select">
                 <option>İş</option>
                 <option>Kişisel</option>
                 <option>Fikir</option>
@@ -13,7 +13,7 @@
             </select>
 
             Öncelik:
-            <select v-model="priority" class="form-select mb-2">
+            <select v-model="priority" class="form-select">
                 <option value="1">Düşük</option>
                 <option value="2">Orta</option>
                 <option value="3">Yüksek</option>
