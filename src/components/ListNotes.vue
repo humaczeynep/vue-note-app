@@ -6,7 +6,7 @@
             <i class="material-icons">search</i>
         </button>
     </div>
-    <div class="filters mb-3">
+    <div class="filters">
         <label>
             Kategori:
             <select v-model="selectedCategory">
@@ -24,7 +24,7 @@
         </label>
     </div>
 
-    <div v-for="note in filteredAndSortedNotes" :key="note.id" class="note-card mb-2 p-2 border">
+    <div v-for="note in filteredAndSortedNotes" :key="note.id" class="note-card">
         <h3 @click="goToDetail(note.id)">{{ note.title }}</h3>
         <p>{{ note.content }}</p>
         <span>Kategori: {{ note.category }}</span> |
@@ -114,7 +114,6 @@ select {
 .note-card {
     background-color: #ffffff;
     border: 1px solid #b9b9b9;
-    border-radius: 10px;
     border-radius: 8px;
     padding: 15px;
     margin: 15px;
