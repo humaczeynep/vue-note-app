@@ -19,7 +19,7 @@
                 <option value="3">Yüksek</option>
             </select>
 
-            <button class="btn btn-success" type="submit">Notu Kaydet</button>
+            <button class="btn" type="submit">Notu Kaydet</button>
         </div>
     </form>
 </template>
