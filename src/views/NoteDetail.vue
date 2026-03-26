@@ -38,8 +38,8 @@
       </div>
 
       <div class="form-buttons">
-        <button class="btn btn-success" @click="saveEdit">Kaydet</button>
-        <button class="btn btn-secondary" @click="cancelEdit">İptal</button>
+        <button class="btn btn-save" @click="saveEdit">Kaydet</button>
+        <button class="btn btn-cancel" @click="cancelEdit">İptal</button>
       </div>
     </div>
   </div>
@@ -179,7 +179,7 @@ const goBack = () => router.push('/')
   gap: 10px;
   margin-top: 15px;
 }
-.edit-form .btn-success {
+.edit-form .btn-save {
   background-color: #28a745;
   color: white;
   border: none;
@@ -187,10 +187,10 @@ const goBack = () => router.push('/')
   border-radius: 5px;
   cursor: pointer;
 }
-.edit-form .btn-success:hover {
+.edit-form .btn-save:hover {
   background-color: #218838;
 }
-.edit-form .btn-secondary {
+.edit-form .btn-cancel {
   background-color: #6c757d;
   color: white;
   border: none;
@@ -198,7 +198,7 @@ const goBack = () => router.push('/')
   border-radius: 5px;
   cursor: pointer;
 }
-.edit-form .btn-secondary:hover {
+.edit-form .btn-cancel:hover {
   background-color: #5a6268;
 }
 
